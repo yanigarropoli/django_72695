@@ -15,7 +15,7 @@ conectamos nuestro repositorio con el repositorio en la nube (github u otro)
 hacemos el primer push
 activamos el entorno virtual (*)
 instalar django con el manejador de paquetes de python pip con el comando pip install Django
-crear el requirements.txt con los datos de las dependencias usando el comando pip freeze > requirements.txt (**)
+crear el requirements.txt con los datos de las dependencias usando el comando pip freeze > requirements.txt
 crear el proyecto django donde estamos trabajando con el comando django-admin startproject <nombre_del_proyecto> . (***)
 probamos el proyecto ejecutando primero python manage.py migrate y luego python manage.py runserver
 creamos nuestra app principal con el comando python manage.py startapp <nombre_de_la_app>
